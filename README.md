@@ -3,28 +3,28 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-[![Hugging Face](https://img.shields.io/badge/🤗-Hugging%20Face-yellow)](https://huggingface.co/)
+[![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-yellow)](https://huggingface.co/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtkaya/transformer-edge-optimization)
 
 > **Büyük Transformer modellerini mobil ve edge cihazlarda çalıştırmak için kapsamlı rehber ve araçlar.**
 
 ---
 
-## ✨ Özellikler
+## Özellikler
 
 ### Optimizasyon Teknikleri
 
 - **Quantization** - INT8, FP16, Dynamic Quantization
-  - Model boyutu: **4x azalma**
-  - Minimal doğruluk kaybı (**~1-2%**)
-  
+ - Model boyutu: **4x azalma**
+ - Minimal doğruluk kaybı (**~1-2%**)
+
 - **Knowledge Distillation** - Öğretmen-öğrenci öğrenimi
-  - Model boyutu: **6-10x azalma**
-  - Doğruluk korunur (**~2-4% kayıp**)
-  
+ - Model boyutu: **6-10x azalma**
+ - Doğruluk korunur (**~2-4% kayıp**)
+
 - **ONNX Runtime** - Cross-platform deployment
-  - Hardware-accelerated inference
-  - Mobil ve edge cihaz desteği
+ - Hardware-accelerated inference
+ - Mobil ve edge cihaz desteği
 
 ---
 
@@ -37,7 +37,7 @@
 1. Yukarıdaki butona tıkla
 2. Runtime → Change runtime type → **GPU**
 3. Runtime → **Run all**
-4. 5 dakika bekle ve sonuçları izle! 🎉
+4. 5 dakika bekle ve sonuçları izle!
 
 ### Lokal Kurulum
 ```bash
@@ -56,21 +56,21 @@ jupyter notebook notebooks/
 
 ## Notebook'lar
 
-### 1️⃣ Quantization Basics (15 dakika)
+### 1⃣ Quantization Basics (15 dakika)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtkaya/transformer-edge-optimization/blob/main/notebooks/01_quantization_basics.ipynb)
 
 - FP32 → INT8 dönüşümü
 - Model boyutu: **4x azaltma**
 - İnferans hızı: **2x artış**
 
-### 2️⃣ ONNX Runtime Optimization (20 dakika)
+### 2⃣ ONNX Runtime Optimization (20 dakika)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtkaya/transformer-edge-optimization/blob/main/notebooks/02_huggingface_optimum.ipynb)
 
 - PyTorch → ONNX dönüşümü
 - Dynamic quantization
 - Cross-platform deployment
 
-### 3️⃣ Knowledge Distillation (30 dakika)
+### 3⃣ Knowledge Distillation (30 dakika)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtkaya/transformer-edge-optimization/blob/main/notebooks/05_distilbert_training.ipynb)
 
 - Teacher-student training
@@ -109,18 +109,18 @@ print("Model 4x daha küçük, 2x daha hızlı!")
 
 ---
 
-## ️ Desteklenen Platformlar
+## Desteklenen Platformlar
 
-- ✅ **Android** - TensorFlow Lite
-- ✅ **iOS** - Core ML
-- ✅ **Web** - Transformers.js
-- ✅ **Edge Devices** - ONNX Runtime
+- **Android** - TensorFlow Lite
+- **iOS** - Core ML
+- **Web** - Transformers.js
+- **Edge Devices** - ONNX Runtime
 
 ---
 
 ## Katkıda Bulunma
 
-Katkılarınızı bekliyoruz! 
+Katkılarınızı bekliyoruz!
 
 1. Fork yapın
 2. Feature branch oluşturun
@@ -141,7 +141,7 @@ Bu proje MIT lisansı altındadır - detaylar için [LICENSE](LICENSE) dosyasın
 
 - [Hugging Face](https://huggingface.co/) - Transformers ve Optimum
 - [ONNX](https://onnx.ai/) - Model interoperability
-- Açık kaynak topluluğuna ❤️
+- Açık kaynak topluluğuna
 
 ---
 
@@ -156,6 +156,6 @@ Bu proje MIT lisansı altındadır - detaylar için [LICENSE](LICENSE) dosyasın
 
 **⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın! ⭐**
 
-Made with ❤️ for the AI community
+Made with for the AI community
 
 </div>
