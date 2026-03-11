@@ -1,4 +1,4 @@
-# 🚀 Transformer Edge Optimization
+# Transformer Edge Optimization
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -12,7 +12,7 @@
 
 ## ✨ Özellikler
 
-### 🎯 Optimizasyon Teknikleri
+### Optimizasyon Teknikleri
 
 - **Quantization** - INT8, FP16, Dynamic Quantization
   - Model boyutu: **4x azalma**
@@ -28,7 +28,7 @@
 
 ---
 
-## 🚀 Hızlı Başlangıç
+## Hızlı Başlangıç
 
 ### Google Colab'de Çalıştır (Önerilen)
 
@@ -54,7 +54,7 @@ jupyter notebook notebooks/
 
 ---
 
-## 📓 Notebook'lar
+## Notebook'lar
 
 ### 1️⃣ Quantization Basics (15 dakika)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mtkaya/transformer-edge-optimization/blob/main/notebooks/01_quantization_basics.ipynb)
@@ -79,7 +79,7 @@ jupyter notebook notebooks/
 
 ---
 
-## 💻 Kullanım Örneği
+## Kullanım Örneği
 ```python
 import torch
 from transformers import AutoModelForSequenceClassification
@@ -92,13 +92,13 @@ quantized_model = torch.quantization.quantize_dynamic(
     model, {torch.nn.Linear}, dtype=torch.qint8
 )
 
-# Model boyutu 4x daha küçük! 🎉
+# Model boyutu 4x daha küçük!
 print("Model 4x daha küçük, 2x daha hızlı!")
 ```
 
 ---
 
-## 📊 Benchmark Sonuçları
+## Benchmark Sonuçları
 
 | Teknik | Boyut Azaltma | Hız Artışı | Doğruluk |
 |--------|---------------|------------|----------|
@@ -109,7 +109,7 @@ print("Model 4x daha küçük, 2x daha hızlı!")
 
 ---
 
-## 🛠️ Desteklenen Platformlar
+## ️ Desteklenen Platformlar
 
 - ✅ **Android** - TensorFlow Lite
 - ✅ **iOS** - Core ML
@@ -118,7 +118,7 @@ print("Model 4x daha küçük, 2x daha hızlı!")
 
 ---
 
-## 🤝 Katkıda Bulunma
+## Katkıda Bulunma
 
 Katkılarınızı bekliyoruz! 
 
@@ -131,13 +131,13 @@ Detaylar için: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
-## 📄 Lisans
+## Lisans
 
 Bu proje MIT lisansı altındadır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
 
-## 🙏 Teşekkürler
+## Teşekkürler
 
 - [Hugging Face](https://huggingface.co/) - Transformers ve Optimum
 - [ONNX](https://onnx.ai/) - Model interoperability
@@ -145,7 +145,7 @@ Bu proje MIT lisansı altındadır - detaylar için [LICENSE](LICENSE) dosyasın
 
 ---
 
-## 📧 İletişim
+## İletişim
 
 - **GitHub Issues:** [Sorun bildir](https://github.com/mtkaya/transformer-edge-optimization/issues)
 - **Discussions:** [Tartışmalara katıl](https://github.com/mtkaya/transformer-edge-optimization/discussions)
